@@ -104,3 +104,27 @@ a:hover {
 	font-size: 1.1rem;
 }
 
+/* Cost & Time Left */
+.nft-info {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 1.5rem 0;
+}
+
+.nft-cost,
+.nft-time {
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+}
+
+.nft-cost {
+	color: var(--c-secondary);
+	font-weight: 600;
+}
+
+.icon {
+	max-height: 1.25rem;
+}
+
