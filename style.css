@@ -37,7 +37,7 @@ body {
 
 a {
 	text-decoration: none;
-	color: inherit;
+	color: var(--c-neutral-light);
 	transition: color 0.3s ease;
 }
 
@@ -156,4 +156,11 @@ a:hover {
 
 .author-link {
 	color: var(--c-neutral-light);
+}
+
+/* Footer */
+.attribution {
+	font-size: 11px;
+	text-align: center;
+	margin-top: 1rem;
 }
