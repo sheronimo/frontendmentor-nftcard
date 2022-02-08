@@ -41,14 +41,13 @@ a {
 	transition: color 0.3s ease;
 }
 
-/* All links on page use same hover color */
 a:hover {
 	color: var(--c-secondary);
 }
 
 /* NFT Card */
 .nft-card {
-	width: 87%;
+	width: 85%;
 	max-width: 350px;
 	padding: 1.5rem;
 	background: var(--c-neutral-darker);
