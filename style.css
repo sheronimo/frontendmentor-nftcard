@@ -128,3 +128,10 @@ a:hover {
 	max-height: 1.25rem;
 }
 
+/* Divider */
+.divider {
+	/* height: 1px; */
+	border: 0;
+	border-top: 1px solid var(--c-neutral-dark);
+}
+
