@@ -26,19 +26,57 @@ body {
 	font-family: 'Outfit', sans-serif;
 	font-size: 18px;
 	background: var(--c-neutral-darkest);
-	color: var(--c-neutral-dark);
-	height: 100vh;
+	color: var(--c-primary);
+	min-height: 100vh;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 }
 
-img {
-	max-width: 100%;
-	height: auto;
-}
-
 a {
 	text-decoration: none;
+}
+
+/* NFT Card */
+.nft-card {
+	width: 90%;
+	max-width: 350px;
+	padding: 0.75rem 1rem;
+	background: var(--c-neutral-darker);
+}
+
+/* NFT Image & Overlay */
+.img-container {
+	position: relative;
+	cursor: pointer;
+}
+
+.nft-img {
+	max-width: 100%;
+	height: auto;
+	border-radius: 5px;
+}
+
+.overlay {
+	background: hsla(178, 100%, 50%, 0.5);
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	border-radius: 5px;
+	opacity: 0;
+	transition: opacity 0.5s ease;
+}
+
+.overlay-icon {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.img-container:hover .overlay {
+	opacity: 1;
 }
