@@ -89,3 +89,18 @@ a:hover {
 .img-container:hover .overlay {
 	opacity: 1;
 }
+
+/* NFT Heading */
+.nft-heading {
+	color: var(--c-neutral-light);
+	margin: 1rem 0 0.75rem;
+	font-size: 1.4rem;
+	font-weight: 600;
+}
+
+/* NFT Subheading */
+.nft-subheading {
+	font-weight: 300;
+	font-size: 1.1rem;
+}
+
